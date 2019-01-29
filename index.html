@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|M+PLUS+Rounded+1c" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/main-style.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header class="header" id="header">
+      <div class="header__presentation">
+        <img class="header__logo" id="header-img" src="img/mainlogocolor.png" alt="Ilustração de um bolinho cupcake com corações em cima">
+        <h2 class="header__company-name">Kitutes da Kikuchi</h2>
+      </div>
+      
+      <nav class="header__nav" id="nav-bar">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="nav-link" href="#nossa-historia"> <!--esse é o id do elemento pra onde quero direcionar-->
+              Nossa história
+            </a>
+          </li>
+
+          <li class="header__menu-item">
+            <a class="nav-link" href="#nosso-trabalho"> 
+              Nosso trabalho
+            </a>
+          </li>
+
+          <li class="header__menu-item">
+            <a class="nav-link" href="#precos">
+              Produtos/ Preços
+            </a>
+          </li>
+
+          <li class="header__menu-item">
+            <a class="nav-link" href="#contato">
+              Contato
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="main__section main__section--intro">
+        <h1 class="main__title">
+          Os Kitutes da Kikuchi são biscoitinhos feitos em casa com muito amor, carinho e cuidado!
+        </h1>
+        <p class="main__description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quis excepturi animi iste, autem nemo dolorem, repellendus a unde numquam ab. 
+          </p>
+      </section>
+
+      <section class="main__section main__section--history" id="nossa-historia">
+        <div class="main__text-history">
+          <h2 class="main__history-title">
+            Nossa história
+          </h2>
+          <p class="main__history-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quis excepturi animi iste, autem nemo dolorem, repellendus a unde numquam ab. Earum adipisci numquam veniam, quas necessitatibus possimus nam aspernatur?
+          </p>
+          <div class="main__history-video">
+              <iframe class="main__video" id="video" src="https://www.youtube.com/embed/UBRN2DhzyFk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section main__section--work" id="nosso-trabalho">
+        <div class="main__work">
+          <h2 class="main__work-title">
+            Nosso trabalho
+          </h2>
+          <p class="main__work-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quis excepturi animi iste, autem nemo dolorem, repellendus a unde numquam ab. Earum adipisci numquam veniam, quas necessitatibus possimus nam aspernatur?
+          </p>
+          <div class="main__work-all-itens">
+            <div class="main__work-item">
+              <img class="main__work-image" src="img/ingredientes.png" alt="Ilustração de cenoura, tomate, folhas e água">
+              <h3 class="main__work-title--item">
+                Ingredientes fresquinhos
+              </h3>
+              <p class="main__work-item--description">
+                Nossos Kitutes são preparados com ingredientes fresquinhos, que proporcionam a você e sua família uma experiência cheia de sabor e qualidade.
+              </p>
+            </div>
+            <div class="main__work-item">
+              <img class="main__work-image" src="img/send.png" alt="Ilustração de uma mão segurando um celular com um coração na tela">
+              <h3 class="main__work-title--item">
+                Aceitamos encomendas
+              </h3>
+              <p class="main__work-item--description">
+                Você pode saborear os Kitutes da Kikuchi de onde estiver. É só fazer sua encomenda a hora que quiser! Veja como <a src="#">aqui</a>.
+              </p>
+            </div>
+            <div class="main__work-item">
+              <img class="main__work-image" src="img/cookiestarcolor.png" alt="Ilustração de um biscoito em formato de estrela">
+              <h3 class="main__work-title--item">
+                Quanto mais Kitutes, MAIS KITUTES!* 
+              </h3>
+              <p class="main__work-item--description">
+                A cada cinco (5) pacotinhos dos Kitutes da Kikuchi comprados, você ganha mais um de sua preferência!
+              </p>
+              <p><small>Promoção não cumulativa, váliada para cada cinco (5) pacotinhos adquiridos na mesma compra.</small></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section main__section--product" id="precos">
+        <div class="main__product">
+          <h2 class="main__product-title">
+            Nossos produtos e preços
+          </h2>
+          <p class="main__product-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quis excepturi animi iste, autem nemo dolorem, repellendus a unde numquam ab. Earum adipisci numquam veniam, quas necessitatibus possimus nam aspernatur?
+          </p>
+          <div class="main__product-all-itens">
+            <div class="main__product-item">
+              <h3 class="main__product-title--item">
+                Kitute 1
+              </h3>
+              <h3 class="main__product-price--item">
+                R$ XX,XX
+              </h3>
+              <p class="main__product-item--description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quis excepturi animi iste, autem nemo dolorem, repellendus a unde numquam.
+              </p>
+              <img class="main__product-image" src="img/cookies1.jpeg" alt="Biscoitinhos assados e decorados">
+            </div>
+            <div class="main__product-item">
+              <h3 class="main__product-title--item">
+                Kitute 2
+              </h3>
+              <h3 class="main__product-price--item">
+                R$ XX,XX
+              </h3>
+              <p class="main__product-item--description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quis excepturi animi iste, autem nemo dolorem, repellendus a unde numquam.
+              </p>
+              <img class="main__product-image" src="img/cookies1.jpeg" alt="Biscoitinhos assados e decorados">
+            </div> 
+            <div class="main__product-item">
+              <h3 class="main__product-title--item">
+                Kitute 3
+              </h3>
+              <h3 class="main__product-price--item">
+                R$ XX,XX
+              </h3>
+              <p class="main__product-item--description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, quis excepturi animi iste, autem nemo dolorem, repellendus a unde numquam.
+              </p>
+              <img class="main__product-image" src="img/cookies1.jpeg" alt="Biscoitinhos assados e decorados">
+            </div>
+          </div>
+        </div>    
+      </section>
+
+      <section class="main__section main__section--contact" id="contato">
+        <div class="main__contact">
+          <h2 class="main__contact-title">
+            Nosso contato
+          </h2>
+          <p class="main__contact-description">
+            Você pode fazer seus pedidos pelo nosso WhatsApp (11)99999-9999! Se quiser, também pode enviar suas dúvidas, críticas e sugestões, elas são super bem-vindas!
+          </p>
+        </div>
+        <div class="main__contact-form">
+          <form action="https://www.freecodecamp.com/email-submit" class="main__form" id="form">
+            <p class="main__form-intro">
+              Quer receber novidades sobre os Kitutes da Kikuchi?
+            </p>
+            <label class="main__label" for="email">
+              Cadastre seu e-mail:
+            </label>
+            <input class="main__input" type="email" name="email" id="email" required placeholder="Digite seu e-mail aqui">
+            <input class="main__button" id="submit" type="submit" value="Cadastrar">
+          </form>  
+        </div>
+      </section>
+    </main>
+</body>
+<footer class="footer">
+  <p class="footer__text">&copy; 2018 Made with <img class="heart" src="img/coracaomordidopb.png" alt="Ilustração de um coraçãozinho mordido"> by Natália Kikuchi</p>
+</footer>
+</html>

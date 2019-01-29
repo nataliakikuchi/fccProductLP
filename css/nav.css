@@ -1,0 +1,74 @@
+/*Estilo para mobile first*/
+
+.header {
+  background-color: whitesmoke;
+}
+
+.header__presentation {
+  margin-left: 10px;
+}
+
+.header__company-name {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 30px;
+  display: inline-block;
+  margin: 0;
+}
+
+.header__logo {
+  width: 35px;
+  display: inline-block;
+}
+
+/*Estilo para iPad e desktop*/
+
+@media (min-width: 760px) {
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  .header__nav {
+    width: 50%;
+  }
+
+  .header__presentation {
+    margin: 0;
+    width: 40%;
+  }
+
+  .header__company-name {
+    font-size: 40px;
+  }
+  
+  .header__logo {
+    width: 80px;
+    margin-top: 10px;
+  }
+  
+  .header__menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .header__menu-item {
+    display: inline;
+    text-decoration: none;
+  }
+
+  .header__menu-item a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: #ff5050;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
