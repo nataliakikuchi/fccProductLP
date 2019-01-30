@@ -2,6 +2,7 @@
 
 .header {
   background-color: whitesmoke;
+  padding: 10px 0;
 }
 
 .header__presentation {
@@ -16,9 +17,48 @@
 }
 
 .header__logo {
-  width: 35px;
+  width: 53px;
   display: inline-block;
+  padding-top: 10px;
 }
+
+.header__menu-list {
+  display: none;
+}
+
+.header__menu-item {
+  list-style: none;
+}
+
+.header__menu-item a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ff5050;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.header__menu-list.open-menu {
+  display: block;
+}
+
+.menu-hamburguer {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.menu-hamburguer div {
+  height: 0;
+  width: 40px;
+  border: 3px solid #333;
+  margin-top: 8px;
+}
+
 
 /*Estilo para iPad e desktop*/
 
@@ -57,18 +97,11 @@
     justify-content: space-around;
   }
 
-  .header__menu-item {
-    display: inline;
-    text-decoration: none;
+  .menu-hamburguer {
+    display: none;
   }
 
-  .header__menu-item a {
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    color: #ff5050;
-    text-decoration: underline;
-    font-weight: bold;
+  .header__menu-list.open-menu {
+    display: flex;
   }
 }
